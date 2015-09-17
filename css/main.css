@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 17, 2015, 3:05:09 PM
+    Author     : Jeanis
+*/
+/*HEADER*/
+body{
+    background-color: #0B0202;
+}
+
+.col-md-12{
+    background-color: #FFF;
+}
+.jumbotron{
+    background-image: url(../img/chineseLantern.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 160%;
+    background-position: 60% 70%;
+    margin-bottom: 0;
+}
+
+.jumbotron h1{
+    color: #FFF767;
+}
+
+/*NAVIGATION*/
+nav{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/*CONTENT*/
+
+.home_links{
+    margin-top: 15px;
+}
+
+#animalCarousel{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#php_info{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*FOOTER:*/
+footer{
+    background-color: #030303;
+    text-align: center;
+    margin: 10px 0;
+}
+
+footer a{
+    color:#FFF767;
+}
+
+footer a:hover{
+    color: #AA3939;
+}
