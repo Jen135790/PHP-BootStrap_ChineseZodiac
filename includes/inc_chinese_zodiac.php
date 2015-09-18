@@ -20,7 +20,7 @@
     <!-- Wrapper for Slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="./img/animals/rat.jpg" alt="Rat">
+            <img src="./img/animals/rat.jpg" alt="Rat">
           <div class="carousel-caption">
             <h3>Rat</h3>
             <p>The characteristics of a rat is one with spirit, wit, alertness, delicacy, flexibility, and vitality. Those born in the year of the rat are usually smart, wealthy, and will work for success. 

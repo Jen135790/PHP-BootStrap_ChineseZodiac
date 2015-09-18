@@ -1,4 +1,9 @@
-<p id="php_info">
+<h3>Purpose</h3>
+<p class="php_info">The purpose of this web site is to showcase the various functions and features of PHP (current version: 5.6) with a Chinese Zodiac theme. This site uses the Bootstrap framework which is compatible with the latest
+browsers such as Google Chrome, FireFox, Internet Explorer, Saferi, and Opera.</p>
+
+<h3>About PHP</h3>
+<p class="php_info">
     PHP, Hypertext Preprocessor, is an open source general-purpose scripting language that is used especially for web developemnt and is embedded into HTML.
     Unlike JavaScript, the scripted coded in PHP is executed on the server which generates HTML to be sent to the client. The client would see the results of the
     script but could not see the actual PHP script.<br/><br/>
