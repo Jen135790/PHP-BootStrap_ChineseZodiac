@@ -21,6 +21,7 @@ body{
     background-size: 100% 160%;
     background-position: 60% 70%;
     margin-bottom: 0;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .jumbotron h1{
@@ -31,12 +32,45 @@ body{
 nav{
     margin-bottom: 0;
     padding-bottom: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-size: medium;
+}
+
+.navbar.navbar-inverse{
+    margin-bottom: 10px;
+}
+
+.navbar.navbar-inverse, .container-fluid{
+    background-color: #B72424;
+    border-radius: 20px;
+    color: #FFF;
+}
+.nav.navbar-nav li a {
+    color: #FFF;
+}
+
+.nav.navbar-nav li a:hover {
+    background-color: #801515;
+    color: #FFF767;
+}
+
+.nav.navbar-nav li.active a, .nav.navbar-nav li.active a:hover{
+    background-color: #801515;
+    color: #FFF767;
 }
 
 /*CONTENT*/
+.contents.col-md-12{
+    font-family: 'Calibri';
+    font-size: medium;
+}
+
+#siteLayoutText h4, #controlStructuresText h4{
+    font-weight: bold;
+}
 
 .home_links{
-    margin-top: 15px;
+    padding-top: 15px;
 }
 
 #animalCarousel{
@@ -44,9 +78,49 @@ nav{
     margin-bottom: 10px;
 }
 
-#php_info{
-    padding: 10px;
-    margin-bottom: 10px;
+.php_info{
+   padding-top: 0;
+   padding-bottom: 15px;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+#siteLayoutText, #controlStructuresText, #ifElseContent, #switchContent, #whileTable{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#controlStructuresText h3, #ifElseContent h3, #switchContent h3{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#ifElseContent p, #switchContent p{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+#controlStructuresText{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.code{
+    text-align: center;
+    display: block;
+}
+
+.formErr{
+    color: #ff0000;
+    font-style: italic;
+}
+
+#whileTable th, #forTable th{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#whileTable td, #forTable td{
+    text-align: center;
 }
 
 /*FOOTER:*/

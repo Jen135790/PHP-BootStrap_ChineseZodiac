@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     
   </head>
   <body>
@@ -19,13 +19,28 @@
             <?php include('includes/inc_nav.php'); ?>
         </nav>
         
-        <div class="col-md-12">
+        <div class="contents col-md-12">
             <?php
             //Check if GET is set:
                 if(isset($_GET['page'])){
                     switch($_GET['page']){
                         case 'site_layout':
                             include("includes/inc_site_layout.php");
+                            break;
+                        case 'control_structures':
+                            include('includes/inc_control_structures.php');
+                            break;
+                        case 'ifElse':
+                            include('includes/inc_zodiac_ifelse.php');
+                            break;
+                        case 'switchStatement':
+                            include('includes/inc_zodiac_switch.php');
+                            break;
+                        case 'whileLoop':
+                            include('includes/inc_table_while.php');
+                            break;
+                        case 'forLoop':
+                            include('includes/inc_table_for.php');
                             break;
                         default:
                             include("includes/inc_home.php");
