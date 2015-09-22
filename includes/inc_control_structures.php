@@ -1,4 +1,4 @@
-<div id="controlStructuresText">
+<div id="controlStructuresText" class="contentTexts">
     <h3>Control Structures</h3>
     <div class="row">
         <div class="col-sm-6">
@@ -7,7 +7,7 @@
                 numeric input. The browser displays the user's Chinese Zodiac sign and the associated Zodiac image using an <code>IF...ELSE STATEMENT</code>.</p>
             <p class='code'>
                 <a href='index.php?page=ifElse'>[&nbsp;&nbsp;&nbsp;Test the Script&nbsp;&nbsp;&nbsp;]</a>
-                <a href=''>[&nbsp;&nbsp;&nbsp;View Source Code&nbsp;&nbsp;&nbsp;]</a>
+                <a href='index.php?page=sourceCode&AMP;source_file=inc_zodiac_ifelse.php'>[&nbsp;&nbsp;&nbsp;View Source Code&nbsp;&nbsp;&nbsp;]</a>
             </p>
         </div>
         <div class="col-sm-6">
@@ -16,7 +16,7 @@
                 input. The browser displays the user's Chinese Zodiac sign and the associated Zodiac image using a <code>SWITCH STATEMENT</code>.</p>
             <p class='code'>
                 <a href='index.php?page=switchStatement'>[&nbsp;&nbsp;&nbsp;Test the Script&nbsp;&nbsp;&nbsp;]</a>
-                <a href=''>[&nbsp;&nbsp;&nbsp;View Source Code&nbsp;&nbsp;&nbsp;]</a>
+                <a href='index.php?page=sourceCode&AMP;source_file=inc_zodiac_switch.php'>[&nbsp;&nbsp;&nbsp;View Source Code&nbsp;&nbsp;&nbsp;]</a>
             </p>
         </div>
     </div>
@@ -27,7 +27,7 @@
             with each year under the appropriate sign.</p>
             <p class='code'>
                <a href='index.php?page=whileLoop'>[&nbsp;&nbsp;&nbsp;Test the Script&nbsp;&nbsp;&nbsp;]</a>
-                <a href=''>[&nbsp;&nbsp;&nbsp;View Source Code&nbsp;&nbsp;&nbsp;]</a> 
+                <a href='index.php?page=sourceCode&AMP;source_file=inc_table_while.php'>[&nbsp;&nbsp;&nbsp;View Source Code&nbsp;&nbsp;&nbsp;]</a> 
             </p>
         </div>
         <div class="col-sm-6">
@@ -36,7 +36,7 @@
             year under the appropriate sign.</p>
             <p class='code'>
                 <a href='index.php?page=forLoop'>[&nbsp;&nbsp;&nbsp;Test the Script&nbsp;&nbsp;&nbsp;]</a>
-                <a href=''>[&nbsp;&nbsp;&nbsp;View Source Code&nbsp;&nbsp;&nbsp;]</a>
+                <a href='index.php?page=sourceCode&AMP;source_file=inc_table_for.php'>[&nbsp;&nbsp;&nbsp;View Source Code&nbsp;&nbsp;&nbsp;]</a>
             </p>
         </div>
     </div>

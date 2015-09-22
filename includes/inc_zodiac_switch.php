@@ -1,4 +1,4 @@
-<div id='switchContent'>
+<div id='switchContent' class="contentTexts">
     <h3>Switch Statement</h3>
     
     <?php

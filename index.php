@@ -42,6 +42,18 @@
                         case 'forLoop':
                             include('includes/inc_table_for.php');
                             break;
+                        case 'sourceCode':
+                            include('includes/inc_sourceCode.php');
+                            break;
+                        case 'string_functions':
+                            include('includes/inc_string_functions.php');
+                            break;
+                        case 'sf_similarNames':
+                            include('includes/inc_similarNames.php');
+                            break;
+                        case 'sf_embeddedWords':
+                            include('includes/inc_embeddedWords.php');
+                            break;
                         default:
                             include("includes/inc_home.php");
                             break;

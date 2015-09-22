@@ -1,4 +1,4 @@
-<div id='ifElseContent'>
+<div id='ifElseContent' class="contentTexts">
     <h3>If...Else Statement</h3>
     
     <?php
